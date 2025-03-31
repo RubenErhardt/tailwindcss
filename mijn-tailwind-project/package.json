@@ -1,0 +1,11 @@
+{
+  "name": "mijn-tailwind-project",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.0.17"
+  }
+}

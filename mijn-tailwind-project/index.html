@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Mijn Tailwind Project</title>
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold underline">
+      Hallo wereld!
+    </h1>
+    <div class="grid grid-cols-12"> <!-- werkt -->
+        <div class="col-span-4 bg-blue-500">Kolom 1</div>
+        <div class="col-span-4 bg-green-500">Kolom 2</div>
+        <div class="col-span-4 bg-red-500">Kolom 3</div>
+    </div>
+
+    <div class="perspective-distant">
+        <article class="rotate-x-51 rotate-z-43 transform-3d ...">
+            <div class="bg-white shadow-lg rounded-lg p-6 max-w-sm mx-auto mt-10">
+                <h2 class="text-xl font-bold mb-2">Titel van het artikel</h2>
+                <p class="text-gray-700">Dit is een voorbeeld van een artikel met een 3D-transformatie.</p>
+            </div>
+        </article>
+      </div>
+
+      <div class="bg-linear-45 from-indigo-500 via-purple-500 to-pink-500"></div>
+  </body>
+</html>
